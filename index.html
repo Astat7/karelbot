@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robot Karel</title>
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="inputsDiv">
+            <textarea name="test" id="commandPrompt" rows="30"></textarea>
+            <ul>
+                <li>"step": move</li>
+                <li>"rotate": rotate left</li>
+                <li>"place": place down a blue square</li>
+            </ul>
+            <button id="activate" onclick="activate()">Activate</button>
+        </div>
+        <div id="botArea">
+            <div id="karel"><img src="https://cdn.pixabay.com/photo/2012/04/24/11/42/arrow-39526_640.png" alt="arrow"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
